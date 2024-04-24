@@ -43,7 +43,7 @@ public class GameStrategy {
 	 * AlwaysM   | 3,-3              | 1,-1              | 1,-1
          * AlwaysW   | 0,0               | 1,-1              | 2,-2
 	 */
-    
+//   
    private StrategiesPlayer1 s1;
    private StrategiesPlayer2 s2;
    
