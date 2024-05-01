@@ -8,7 +8,7 @@ package com.mycompany.gamestrategy.strategies;
  *
  * @author saiki
  */
-public class ModifiedGeneticOneMove extends StrategiesPlayer1 {
+public class ModifiedGeneticOneMove extends StrategiesPlayer2 {
 
   public ModifiedGeneticOneMove(int strategy) {
     super();
@@ -19,4 +19,5 @@ public class ModifiedGeneticOneMove extends StrategiesPlayer1 {
     int randomMove = (int) (Math.random() * 3) + 4; // Generate random move (4-6)
     return randomMove;
   }
+  
 }

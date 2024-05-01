@@ -11,7 +11,7 @@ package com.mycompany.gamestrategy.strategies;
 
 import java.util.Random;
 
-public abstract class ModifiedGeneticStrategy extends StrategiesPlayer1 {
+public abstract class GeneticStrategy extends StrategiesPlayer1 {
 
     /**
      * This class is a genetic algorithm that acts on no knowledge of previous moves.
@@ -21,7 +21,7 @@ public abstract class ModifiedGeneticStrategy extends StrategiesPlayer1 {
     protected Random generator;
     protected int playerNumber; // Player this strategy belongs to (1 or 2)
 
-    public ModifiedGeneticStrategy(double n, int playerNumber) {
+    public GeneticStrategy(double n, int playerNumber) {
         weight = n;
         generator = new Random();
         this.playerNumber = playerNumber;
@@ -39,7 +39,7 @@ public abstract class ModifiedGeneticStrategy extends StrategiesPlayer1 {
     /**
      * Mutate this genetic strategy and return a new instance
      */
-    public abstract ModifiedGeneticStrategy mutateNew();
+    public abstract GeneticStrategy mutateNew();
 
     /**
      * Return the weight of the GeneticStrategy

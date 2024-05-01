@@ -25,11 +25,11 @@ public abstract class StrategiesPlayer2 {
   }
 
   /**
-   * Gives the move of the strategy at that turn; either
-   * cooperate (1) or don't (0)
-   *
-   * @return 1 if cooperating, 0 if not
-   */
+     * Gives the move of the strategy at that turn; either
+     
+     *
+     * @return strategy 
+     */
   public abstract int makeMove();
 
   /**

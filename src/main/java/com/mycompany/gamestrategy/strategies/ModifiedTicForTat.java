@@ -23,7 +23,7 @@ public class ModifiedTicForTat extends StrategiesPlayer1 {
 
 	@Override
 	public int makeMove() {
-		if (opponentMoveHistory.size() == 0) {
+		if (opponentMoveHistory.isEmpty()) {
 			return 1;
 		}
 		return opponentMoveHistory.get(opponentMoveHistory.size() - 1);

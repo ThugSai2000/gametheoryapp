@@ -163,8 +163,8 @@ public class GameStrategy {
 //    System.out.println("Strategy 1 Favorable Outcome: " + (scores.get(0)));
 //    System.out.println("Strategy 2 Favorable Outcome: " + (scores.get(1)));
 
-      System.out.println("Strategy 1 Score: " + scores.get(0));
-      System.out.println("Strategy 1 Score: " + scores.get(0));
+      System.out.println("Player 1 Score: " + scores.get(0));
+      System.out.println("Player 2 Score: " + scores.get(1));
 
   }
    
